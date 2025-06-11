@@ -4,7 +4,7 @@
 import logging
 from typing import Any, Dict
 
-from agents import (
+from agent_pools.data_agent_pool.agents import (
     CryptoAgent,
     EquityAgent,
     NewsAgent,

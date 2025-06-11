@@ -6,8 +6,7 @@ from typing import Any, List, Optional
 from langchain_core.tools import BaseTool
 
 from base.base_agent import BaseAgent
-from tools.crypto_tools import CryptoPriceTool
-
+from agent_pools.data_agent_pool.tools.crypto_tools import CryptoPriceTool
 
 class CryptoAgent(BaseAgent):
     """An agent that specializes in providing cryptocurrency information."""
